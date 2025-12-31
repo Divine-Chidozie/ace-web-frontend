@@ -1,0 +1,43 @@
+body {
+    background: #fff;
+    color: #000;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0;
+}
+
+.legal-container {
+    position: relative;
+    margin: 50px auto;
+    padding: 100px 50px;
+    width: 90%;
+    max-width: 1024px;
+    margin: 0 auto;
+    border-top: 1px solid #eee;
+}
+.legal-container h1, .legal-container h2{
+    font-weight: 700;
+}
+.legal-container h1 {
+    font-size: 40px;
+    line-height: 60px;
+}
+.legal-container h2 {
+    font-size: 32px;
+    line-height: 48px;
+}
+@media screen and (max-width: 768px) {
+    .legal-container {
+        width: 100%;
+    }
+    .legal-container h1 {
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .legal-container h2 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    
+}

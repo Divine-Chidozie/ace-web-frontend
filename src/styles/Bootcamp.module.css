@@ -1,0 +1,141 @@
+.bootcamp-container *{
+    margin: auto;
+    align-self: anchor-center;
+}
+.hero-background{
+    background: url("../../public/assets/codingcover.webp") no-repeat center center/cover;
+    color: white;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.bootcamp-container {
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    padding: 100px 20px;
+    max-width: 1200px;
+    line-height: 36px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+}
+.instructor-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+.highlight {
+    background-color: var(--secondary-color);
+    padding: 10px;
+    margin: 0.5rem auto;
+    border-radius: 5px;
+    color: var(--primary-color);
+}
+
+.text-huge{
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration-line: underline;
+    color: var(--primary-color);
+}
+.who-are-we {
+    margin: 20px 0;
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 20px;
+    color: white
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.list {
+    width: fit-content;
+    list-style-type: none;
+    padding: 0;
+}
+
+.bootcamp-container .sub-heading{
+    text-align: center;
+    text-decoration: double;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    transition: opacity 0.6s 0.1s;
+    color: var(--primary-color-2);
+}
+
+.who-are-we>h2{
+    color: var(--accent-color);
+}
+.card{
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    
+}
+.img{
+    width: 100%;
+    max-width: 300px;
+}
+.shaded-outline {
+    text-shadow: 0 0 0.4rem black;
+}
+em {
+    font-style: normal;
+    font-weight: bold;
+    color: var(--primary-color-2);
+}
+.bootcamp-container p {
+    width: fit-content;
+    opacity: 0;
+    transition: opacity 0.6s;
+}
+.iframe-container{
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.bootcamp-container figure{
+    width: 100%;
+    padding: 2rem;
+    background-color: var(--secondary-color);
+    border-radius: 1rem;
+}
+.bootcamp-container figcaption{
+    font-size: 1.05rem;
+    width: fit-content;
+}
+.bootcamp-container iframe{
+    width: 100%;
+    height: 420px;
+    transition: opacity 0.6s 0.1s;
+}
+
+.bootcamp-container > *:not(svg) {
+    z-index: 1;
+}
+.bootcamp-container  svg{
+    position: absolute;
+    top: 0;
+    width: fit-content;
+    margin: 0 auto;
+    display: block;
+    transition: opacity 0.6s 0.1s;
+    opacity: 0.25;
+    z-index: 0;
+}
+.bootcamp-container text{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    user-select: none;
+}

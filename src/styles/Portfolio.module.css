@@ -1,0 +1,86 @@
+.hero-background{
+    background: url("../../public/assets/heroteamcover.jpg") no-repeat center center/cover;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.clients-container {
+    display: flex;
+    justify-content: center;
+    height: 6rem;
+    padding: 1rem;
+    gap: 1rem;
+    background-color: #ccc;
+}
+.clients-container img{
+    width: 5rem;
+    border-radius: 1rem / 1rem;
+    margin: 0rem;
+    filter: grayscale(1);
+}
+.work-container {
+    margin: 3rem 1rem;
+    padding: 1rem;
+}
+.work-container h2{
+    margin: 2rem;
+}
+.work-container > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 3rem;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 20rem;
+    background-color: antiquewhite;
+    border-radius: 1rem;
+    overflow: hidden;
+    cursor: pointer;
+    transition: box-shadow .6s;
+}
+.card:hover{
+    box-shadow: 0 0 1rem #999;
+}
+.card img {
+    width: 100%;
+}
+
+.project-metadata{
+    background-color: #eee;
+    height: 100%;
+}
+.project-metadata p {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    user-select: none;
+    border-top: 1px solid #aaa;
+}
+.project-metadata span {
+    padding: 0.5rem;
+    color: #777;
+}
+.project-metadata span.key {
+    background-color: var(--secondary-color);
+    width: 40%;
+    font-size: small;
+}
+.project-metadata span.value {
+    color: #777;
+    background-color: var(--white);
+    text-align: right;
+    width: 60%;
+}
+.highlight {
+    color: var(--primary-color-2);
+}
+.work-container a{
+    color: var(--primary-color-2);
+}

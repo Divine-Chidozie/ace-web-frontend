@@ -1,0 +1,88 @@
+.hero-background{
+    background: url("../../public/assets/heroteamcover.jpg") no-repeat center center/cover;
+}
+#position-section {
+    margin: 1rem;
+    padding: clamp(10px, 2vw, 30px);
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem #999;
+}
+.list {
+    list-style: none;
+    margin: 1rem;
+    padding: 1rem;
+}
+.role-list-item {
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: var(--secondary-color);
+}
+.text-bold {
+    font-weight: bold;
+}
+.role-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: fit-content;
+}
+.text-small {font-size: small;}
+.role-info > span {
+    text-wrap-mode: nowrap;
+}
+div.values-container {
+    width: fit-content;
+    min-height: 9rem;
+    max-width: 100%;
+    min-width: 12rem;
+    padding: 1rem;
+    margin: .5rem;
+    border-radius: 1rem;
+    background-color: white;
+}
+div.values-container:first-child {
+    background-color: revert;
+}
+#values-section-container {
+    display: flex;
+    justify-content: center;
+    background: radial-gradient(var(--secondary-color) 0, transparent 70%);
+    padding: 4rem 0;
+}
+#values-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1rem;
+    padding: 1rem;
+    width: 100%;
+    max-width: 768px;
+}
+
+
+/*============ Our culture Section =========== */
+#our-culture-section-container {
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0;
+}
+#our-culture-section {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin: 1rem;
+    padding: 1rem;
+    width: 100%;
+    max-width: 768px;
+}
+#our-culture-content {
+    width: 50%;
+    min-width: 480px;
+}
+.coloured-text{
+    color: var(--primary-color-2);
+    font-weight: bold;
+}

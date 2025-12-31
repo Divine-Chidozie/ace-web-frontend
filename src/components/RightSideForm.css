@@ -1,0 +1,46 @@
+/* Right Form */
+.ContactForm {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  color: #333;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.ContactForm h3 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.ContactForm input,
+.ContactForm textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  outline: none;
+  font-size: 15px;
+  background: transparent;
+  color: #333;
+}
+
+.ContactForm input:focus,
+.ContactForm textarea:focus {
+  border-bottom: 2px solid #0c0064;
+}
+
+.ContactForm button {
+  background: #0c0064;
+  color: #fff;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.ContactForm button:hover {
+  background: #0097a7;
+}

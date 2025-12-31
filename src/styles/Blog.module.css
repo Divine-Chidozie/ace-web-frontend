@@ -1,0 +1,109 @@
+.container {
+  margin: 110px 2%;
+  padding: 1rem;
+  max-width: 1200px;
+}
+#blog-header {
+  display: flex;
+  justify-content: space-between;
+}
+#blog-header > h1 {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.container input {
+  max-width: fit-content;
+  background-color: transparent;
+}
+.container input:focus {
+  outline: none;
+  border: none;
+}
+.container button[title=search] {
+  background: inherit;
+}
+#featured-container {
+  background: url("../../public/assets/codingcover.webp") no-repeat center
+    center/cover;
+  background-attachment: fixed;
+  min-height: 300px;
+  border-radius: 1rem;
+  padding: 1rem;
+  align-content: flex-end;
+}
+.link {
+  color: var(--primary-color-2) !important;
+  text-decoration: none;
+}
+
+#recent-post {
+  padding-top: 2rem;
+}
+/* ============ Tab Container =========== */
+.tab-container {
+  display: flex;
+  justify-content: start;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.tab-container button {
+  position: relative;
+  color: gray;
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+.tab-container button::after,
+.tab-container button::before {
+  text-align: center;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  transition: width 0.3s, color 0.3s;
+}
+.tab-container button::after {
+  right: 0;
+  background-color: var(--primary-color-2);
+}
+.tab-container button::before {
+  left: 0;
+  background-color: var(--secondary-color);
+}
+.tab-container button:focus::after {
+  width: 100%;
+}
+
+.tab-container button:hover::before {
+  width: 100%;
+}
+
+#post-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+#post-container>.post {
+  color: #333;
+  max-width: 300px;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: var(--light-bg);
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+#post-container>.post:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+#post-container>.post img {
+  width: 100%;
+  height: auto;
+}

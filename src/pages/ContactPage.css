@@ -1,0 +1,83 @@
+.ContactSection {
+      background: url("../images/Background/BackG\ \(7\).jpg")
+     no-repeat center center/cover; 
+ color: #fff;
+  min-height: 95vh; /* allows it to expand if content grows */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem; /* space at top & bottom */
+  box-sizing: border-box;
+}
+
+
+.ContactSection::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 95%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.ContactContainer {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  max-width: 1100px;
+  margin: auto;
+  z-index: 1;
+}
+
+.ContactInfo {
+  padding: 20px;
+}
+
+.ContactInfo h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.ContactInfo p {
+  margin-bottom: 25px;
+  line-height: 1.6;
+  color: #ddd;
+}
+
+.InfoBox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.Icon {
+  font-size: 24px;
+  margin-right: 15px;
+}
+
+.InfoBox h4 {
+  margin: 0;
+  font-size: 18px;
+  color: #fff;
+}
+
+.InfoBox p {
+  margin: 2px 0 0;
+  color: #bbb;
+}
+
+
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .ContactContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .ContactForm {
+    margin-top: 30px;
+  }
+}
+

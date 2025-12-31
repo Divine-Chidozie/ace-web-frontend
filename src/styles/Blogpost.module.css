@@ -1,0 +1,82 @@
+main#blog {
+    padding: 0.5rem;
+}
+#blog .article-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 1rem;
+}
+.article-container > article{
+    margin: 1rem;
+    width: 100%;
+    min-width: 20rem;
+    max-width: 892px;
+}
+.article-container > article p{
+    font-size: 20px;
+}
+.article-container >aside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: 100%;
+}
+.article-container >aside > *{
+    max-width: 14rem;
+}
+.related-post{
+    padding: 1rem;
+    margin: 1rem 0;
+}
+#blog section{
+    margin: 2rem 0;
+}
+.article-container h1{
+    font-size: xx-large !important;
+    color: var(--primary-color-2);
+}
+.article-container h4{
+    font-size: x-large !important;
+    color: var(--primary-color-2);
+}
+.article-container .blog-link {
+    color: var(--primary-color-2) !important;
+    text-decoration-style: solid !important;
+    font-size: 20px !important;
+    text-decoration: underline solid !important;
+}
+.article-container .blog-link:hover {
+    text-decoration: none;
+}
+#blog .justify {
+    text-align: justify;
+}
+
+#cover-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: url("../images/blog/buisnessGrowth.webp") no-repeat 28%
+      bottom/cover;
+    min-height: 500px;
+    border-radius: 1rem;
+    padding: 1rem;
+    align-content: center;
+}
+#blog .cta-container{
+    background-color: var(--secondary-color);
+    padding: 0.5rem;
+}
+@media screen and (min-width: 892px) {
+    #blog .article-container{
+        flex-wrap: nowrap;
+    }
+    #blog .article-container >aside {
+        max-width: 30%;
+    }
+}

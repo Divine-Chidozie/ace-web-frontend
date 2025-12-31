@@ -1,0 +1,533 @@
+/* =================== BREAKPOINTS =================== */
+
+/* Laptop and below (72rem) */
+@media (max-width: 72rem) {
+  .meet-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .heading {
+    letter-spacing: -2px;
+    font-size: 2.5rem !important;
+  }
+  .mission-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .mission-container h3 {
+    font-size: 2rem !important;
+  }
+  .we-do-this-container {
+    text-align: center;
+  }
+  .we-do-this-container h4,
+  .we-do-this-container p {
+    font-size: 1.1rem !important;
+  }
+  .mission-paragrapgh-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .mission-paragrapgh {
+    font-size: 1.1rem;
+  }
+  /* =============== MEET THE TEAM SECTION =============== */
+  .team-inner-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .team-container-div {
+    flex: 0 1 25%;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .team-heading {
+    font-size: 1.6rem !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .team-container-div h5 {
+    font-size: 1rem;
+  }
+  .team-container-div p {
+    font-size: 0.8rem;
+    margin-top: -0.3rem;
+  }
+
+  /* =============== FOOTER SECTION =============== */
+  .footer-container {
+    margin: 0;
+  }
+  .footer-sub-head,
+  .follow {
+    font-size: 14px !important;
+  }
+  .footer-para,
+  .footer-container-follow-para {
+    font-size: 13px !important;
+    line-height: 17px;
+  }
+  .footer-contact-no {
+    margin-top: -11px;
+  }
+  .footer-contact-mail p,
+  .footer-contact-no p {
+    font-size: 12px !important;
+  }
+  .list {
+    font-size: 12px !important;
+  }
+  .allrightreserved p,
+  .footer-list {
+    font-size: 12px;
+  }
+}
+
+/* Tablet and below (43rem) */
+@media (max-width: 43rem) {
+  /* =============== TEEM of CREATORS, DESIGNERS SECTION =============== */
+  .meet-container {
+    display: flex;
+    justify-content: center;
+    align-items: center !;
+    margin-bottom: 2rem;
+  }
+  .heading {
+    text-align: center;
+    width: 100%;
+    font-size: 1.3rem !important;
+    width: 100%;
+  }
+  .meet-container,
+  .mission-container {
+    padding: 2rem;
+    flex-direction: column;
+  }
+
+  /* =============== MISSION SECTION =============== */
+  .mission-container {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .we-do-this-container {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+  .we-do-this-container h4 {
+    font-size: 0.8rem !important;
+    font-weight: bold;
+  }
+  .we-do-this-container p {
+    font-size: 1rem !important;
+    margin-top: 2px;
+  }
+  .mission-container p,
+  .story-paragraph {
+    text-align: center !important;
+    font-size: 1.1rem;
+  }
+  .mission-paragrapgh-container {
+    width: unset !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row !important;
+    padding: 15px;
+  }
+  .mission-paragrapgh,
+  .our-story-paragrapgh {
+    margin-top: -1.8rem;
+    width: 300px !important;
+    font-size: 1.1rem;
+  }
+  .mission-heading,
+  .story-heading,
+  .team-heading {
+    font-size: 2rem !important;
+  }
+  .mission-container {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* =============== OUR STORY SECTION =============== */
+
+  .our-story-container {
+    margin-top: 2rem !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .our-story-paragrapgh {
+    margin-top: -0.5rem !important;
+  }
+
+  /* =============== MEET THE TEAM SECTION =============== */
+  .team-inner-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .team-container-div {
+    flex: 0 1 40%;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .team-heading {
+    font-size: 1.6rem !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .team-container-div h5 {
+    font-size: 1rem;
+  }
+  .team-container-div p {
+    font-size: 0.8rem;
+    margin-top: -0.3rem;
+  }
+
+  /* =============== FOOTER SECTION =============== */
+  footer {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-container {
+    padding-left: 150px !important;
+  }
+
+  .footer-para {
+    text-align: left;
+    font-size: 0.8rem !important;
+    line-height: 18px;
+  }
+  .footer-contact-no {
+    margin-top: -0.7rem;
+  }
+  .footer-sub-head,
+  .follow {
+    text-align: left !important;
+    font-size: 0.8rem !important;
+  }
+
+  .footer-quick-link {
+    margin-top: -3.5rem;
+  }
+  .footer-service {
+    margin-top: -11rem;
+  }
+  .list {
+    width: 100vw;
+    font-size: 0.7rem;
+  }
+  .footer-service-list {
+    margin-top: -0.5rem;
+  }
+  .follow-us-container {
+    margin-top: -120px !important;
+  }
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 1rem;
+    margin-bottom: -50px;
+    margin-top: 3rem;
+  }
+  .footer-container-follow {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1.2rem;
+  }
+
+  .footer-container-follow-para {
+    margin-top: -80px;
+    margin-bottom: -15px;
+    font-size: 0.8rem !important;
+  }
+  .footer-container-follow a {
+    margin-top: -45px;
+    margin-left: -3px;
+  }
+  .hr-copyright {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .hr-rule {
+    width: 50% !important;
+    margin: 0 auto !important;
+    margin-left: 35px !important;
+    border: none;
+    height: 1px;
+    margin-top: -2.5rem !important;
+    margin-bottom: 1rem !important;
+    background-color: rgba(226, 226, 226, 0.276);
+  }
+  .allrightreserved {
+    margin-left: 150px !important;
+  }
+  .allrightreserved,
+  .all-right-reserved,
+  .ul-list,
+  .footer-list {
+    margin: 0;
+    padding: 0;
+    font-size: 0.7rem;
+    list-style: none;
+  }
+  .allrightreserved p,
+  .all-right-reserved p,
+  .ul-list li,
+  .footer-list li {
+    margin: 0;
+    padding-left: 0;
+  }
+  .footer-list {
+    font-size: 0.7rem !important;
+  }
+}
+
+/* Phone and below (34rem) */
+@media (max-width: 34rem) {
+  /* === TEEM SECTION === */
+  .meet-container h1 {
+    width: 100vw;
+    font-size: 1.4rem !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: -2rem;
+  }
+  .meet-container {
+    flex-direction: column;
+  }
+
+  .mission-container {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .we-do-this-container {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+  .we-do-this-container h4 {
+    font-size: 0.8rem !important;
+    font-weight: bold;
+  }
+  .we-do-this-container p {
+    font-size: 0.9rem !important;
+    margin-top: 2px;
+  }
+  .mission-heading,
+  .our-story-heading {
+    font-size: 2rem !important;
+    width: 60vw !important;
+  }
+
+  .mission-container p,
+  .story-paragraph {
+    text-align: center !important;
+    font-size: 1rem;
+  }
+  .mission-paragrapgh-container {
+    width: unset !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row !important;
+    padding: 15px;
+  }
+  .mission-paragrapgh,
+  .our-story-paragrapgh {
+    margin-top: -1.8rem;
+    width: 300px !important;
+  }
+
+  /* =============== OUR STORY SECTION =============== */
+
+  .our-story-container {
+    margin-top: 2rem !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .our-story-paragrapgh {
+    margin-top: -0.5rem !important;
+  }
+
+  /* =============== MEET THE TEAM SECTION =============== */
+  .team-inner-container,
+  .team-container-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .team-heading {
+    font-size: 1.7rem !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .team-container-div {
+    width: 100vw;
+    flex-direction: column;
+    padding: 7px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 4px rgba(174, 171, 171, 0.541);
+    cursor: pointer;
+  }
+  .team-container-div:hover {
+    box-shadow: 0px 0px 4px rgba(109, 107, 107, 0.541);
+    transition: 0.3s ease-in;
+  }
+  .team-container-div h5 {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .team-container-div p {
+    font-size: 0.8rem;
+    margin-top: -0.3rem;
+  }
+
+  /* =============== FOOTER SECTION =============== */
+  footer {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-container {
+    padding-left: 5px !important;
+  }
+  .footer-para {
+    text-align: left;
+    font-size: 0.8rem !important;
+    line-height: 18px;
+  }
+  .footer-contact-no {
+    margin-top: -0.7rem;
+  }
+  .footer-sub-head,
+  .follow {
+    text-align: left !important;
+    font-size: 0.8rem !important;
+  }
+
+  .footer-quick-link {
+    margin-top: -3.5rem;
+  }
+  .footer-service {
+    margin-top: -11rem;
+  }
+  .list {
+    width: 100vw;
+    font-size: 0.7rem;
+  }
+  .footer-service-list {
+    margin-top: -0.5rem;
+  }
+  .follow-us-container {
+    margin-top: -120px !important;
+  }
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 1rem;
+    margin-bottom: -50px;
+    margin-top: 3rem;
+  }
+  .footer-container-follow {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1.2rem;
+  }
+
+  .footer-container-follow-para {
+    margin-top: -80px;
+    margin-bottom: -15px;
+    font-size: 0.8rem !important;
+  }
+  .footer-container-follow a {
+    margin-top: -45px;
+    margin-left: -3px;
+  }
+  .hr-copyright {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .hr-rule {
+    width: 50% !important;
+    margin: 0 auto !important;
+    margin-left: 35px !important;
+    border: none;
+    height: 1px;
+    margin-top: -2.5rem !important;
+    margin-bottom: 1rem !important;
+    background-color: rgba(226, 226, 226, 0.276);
+  }
+
+  .all-right-reserved {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    margin: 0;
+    padding: 0;
+    margin-left: -15px !important;
+
+    gap: 5px;
+  }
+  .allrightreserved p {
+    margin-bottom: 5px;
+    text-align: left;
+    margin-left: -105px;
+  }
+  .allrightreserved {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0;
+  }
+
+  .allrightreserved,
+  .ul-list,
+  .list-group-item {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+  }
+
+  .footer-list {
+    font-size: 0.7rem !important;
+    line-height: 5px;
+    margin-left: -90px;
+  }
+}

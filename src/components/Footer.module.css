@@ -1,0 +1,144 @@
+
+
+.footer {
+  background-color: #0d0d0d; /* Dark background from your image */
+  color: #f0f0f0; /* Light text color */
+  padding: 40px 20px;
+  font-family: Arial, sans-serif; /* Or your project's chosen font */
+}
+
+.footerContent {
+  display: flex;
+  flex-wrap: wrap; /* Allows columns to wrap on smaller screens */
+  justify-content: space-between; /* Distributes columns */
+  max-width: 1200px; /* Max width of your content area */
+  margin: 0 auto; /* Center the content */
+  gap: 30px; /* Space between columns */
+  padding-bottom: 30px;
+  border-bottom: 1px solid #333; /* Separator line */
+}
+
+.column {
+  flex: 1; /* Allows columns to grow and shrink */
+  min-width: 200px; /* Minimum width before wrapping */
+}
+
+.column h3,
+.column h4 {
+  color: #ffffff; /* White headings */
+  margin-bottom: 15px;
+}
+
+.column p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.contactInfo {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Space between icon and text */
+  margin-bottom: 5px;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.column ul li {
+  margin-bottom: 10px;
+}
+
+.column ul li a {
+  color: #f0f0f0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.column ul li a:hover {
+  color: #007bff; /* Example hover color */
+}
+
+.socialLinks {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.socialLinks a {
+  display: inline-block;
+  width: 30px; /* Size of your social icons */
+  height: 30px;
+  background-color: #333; /* Background for icons */
+  border-radius: 5px; /* Slightly rounded corners for icons */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.socialLinks a:hover {
+  background-color: #007bff; /* Example hover for social icons */
+}
+
+.socialLinks img {
+  width: 20px; /* Adjust icon size inside the button */
+  height: 20px;
+  filter: invert(100%); /* Make icons white if they are dark SVGs */
+}
+
+.footerBottom {
+  max-width: 1200px;
+  margin: 20px auto 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px; /* Space from the border-bottom above */
+}
+
+.footerBottom p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.legalLinks a {
+  color: #f0f0f0;
+  text-decoration: none;
+  font-size: 0.9em;
+  margin-left: 20px;
+  transition: color 0.3s ease;
+}
+
+.legalLinks a:hover {
+  color: #007bff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .footerContent {
+    flex-direction: column; /* Stack columns vertically on smaller screens */
+    align-items: flex-start; /* Align text to the left */
+    gap: 20px;
+  }
+
+  .column {
+    min-width: unset; /* Remove min-width to allow full width */
+    width: 100%; /* Take full width */
+  }
+
+  .footerBottom {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .legalLinks {
+    margin-top: 10px;
+  }
+
+  .legalLinks a {
+    margin: 0 10px; /* Adjust spacing for stacked links */
+  }
+}

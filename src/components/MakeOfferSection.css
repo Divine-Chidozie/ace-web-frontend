@@ -1,0 +1,38 @@
+.make-offer-section {
+  background: url("../images/OfferWrapper.webp") no-repeat center center;  
+  background-size: cover;
+  margin: 50px auto; /* same type of margin as in your screenshot */
+  width: 90%;
+  max-width: 1200px; 
+  min-height: 350px; /* controls height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px; /* optional rounded edges */
+}
+
+.make-offer-content {
+  display: flex;
+  align-items: center;
+  color: yellow;
+  font-size: clamp(16px, 2vw, 20px); /* responsive font size */
+  font-weight: bold;
+  gap: 8px;
+  text-align: center;
+}
+
+.make-offer-text {
+  cursor: pointer;
+}
+
+.make-offer-arrow {
+  font-size: clamp(16px, 2vw, 20px);
+}
+
+/* Mobile view adjustments */
+@media (max-width: 600px) {
+  .make-offer-section {
+    margin: 30px auto;
+    min-height: 100px;
+  }
+}
